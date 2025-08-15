@@ -1,0 +1,5 @@
+streamlit>=1.32,<2
+# ElevenLabs Python SDK
+# Docs: https://github.com/elevenlabs/elevenlabs-python
+# Pin to a recent 1.x for stable API
+elevenlabs>=1.8,<2

@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test/coverage (if added later)
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Streamlit
+# Keep config, but never commit secrets
+.streamlit/secrets.toml
+.streamlit/secrets/
+
+# App outputs (generated audio files)
+outputs/
+
+# Logs and runtime files
+*.log
+logs/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env files
+.env
+.env.*
+*.env
+
+# Misc caches
+.cache/
+__pypackages__/
